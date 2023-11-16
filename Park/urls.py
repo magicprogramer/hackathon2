@@ -19,5 +19,7 @@ from django.urls import path
 from system import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("listzones", views.ListZone)
+    path("listzones", views.ListZone),
+    path('zones/<int:pk>', views.retrive),
+    path('dragon/changeloc/<int:pk>/<int:newzone>', views.move)
 ]
