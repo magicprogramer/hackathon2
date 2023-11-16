@@ -9,5 +9,3 @@ api : http://127.0.0.1:8000/listzones -> list all zones
 http://127.0.0.1:8000/listzones/dragons/changeloc/pk/newzone -> change the location of the current dragon
 http://127.0.0.1:8000/zones/zoneid -> list details of current zone
 
-اف
-اففخ
