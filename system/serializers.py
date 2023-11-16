@@ -3,7 +3,7 @@ from .models import *
 class ZoneSerializer(serializers.ModelSerializer):
     class Meta:
         model = Zone
-        fields = ["pk", "dragon", "location", "last_maintanace", "needMaintanance"]
+        fields = ["pk", "dragon", "location", "last_maintanace", "needMaintanance", "number_of_carnivors"]
 class DragonsSerilizer(serializers.ModelSerializer):
     class Meta:
         model = Dragon
